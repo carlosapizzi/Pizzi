@@ -12,7 +12,7 @@ li {
 	
 li a {
 	display: block;
-	color: Red;
+	color: #DA0522   ;
 	text-align: center;
 	padding: 14px 15px;
 	text-decoration: none;
@@ -20,5 +20,5 @@ li a {
 summary {
 
 	font-family: 'Jester';
-	color: Black;
+	color: #000000;
 }	 
