@@ -66,7 +66,7 @@
 			totalTaxIncluded = parseFloat(CompItems[formElement.value]) * TAX;
 			total = total + parseFloat(CompItems[formElement.value]) + totalTaxIncluded;
 			orderDetails = orderDetails + "Hard Drive : $" + CompItems[formElement.value] + "\n";
-			formElement = document.form1.chkCDDVDROM
+			formElement = document.form1.chkCDVDROM
 			if (formElement.checked == true) {
 				orderDetails = orderDetails + "CD/DVD-ROM : $" + CompItems[formElement.value] + "\n";
 				totalTaxIncluded = parseFloat(CompItems[formElement.value]) * TAX;
@@ -74,13 +74,13 @@
 			}
 			formElement = document.form1.chkusb
 			if (formElement.checked == true) {
-				orderDetails = orderDetails + "DVD-ROM : $" + CompItems[formElement.value] + "\n";
+				orderDetails = orderDetails + "USB-3.0 : $" + CompItems[formElement.value] + "\n";
 				totalTaxIncluded = parseFloat(CompItems[formElement.value]) * TAX;
 				total = total + parseFloat(CompItems[formElement.value]) + totalTaxIncluded;
 			}
-			formElement = document.form1.chkScanner
+			formElement = document.form1.chkusbC
 			if (formElement.checked == true) {
-				orderDetails = orderDetails + "Scanner : $" + CompItems[formElement.value] + "\n";
+				orderDetails = orderDetails + "USB-C : $" + CompItems[formElement.value] + "\n";
 				totalTaxIncluded = parseFloat(CompItems[formElement.value]) * TAX;
 				total = total + parseFloat(CompItems[formElement.value]) + totalTaxIncluded;
 			}
@@ -98,7 +98,7 @@
 			totalTaxIncluded = parseFloat(CompItems[formElement.value]) * TAX;
 			total = total + parseFloat(CompItems[formElement.value]) + totalTaxIncluded;
 			orderDetails = orderDetails + "RAM : $" + CompItems[formElement.value] + "\n";
-			formElement = document.form1.chkWindowsOS
+			formElement = document.form1.chkWOS
 			if (formElement.checked == true) {
 				orderDetails = orderDetails + "Windows OS : $" + CompItems[formElement.value] + "\n";
 				totalTaxIncluded = parseFloat(CompItems[formElement.value]) * TAX;
@@ -133,7 +133,7 @@
 				</select>
 				<br><br>
 				CD/DVD-ROM
-				<input type="checkbox" name="chkCDDVDROM" value="300">
+				<input type="checkbox" name="chkCDVDROM" value="300">
 				<br>
 				USB-3.0
 				<input type="checkbox" name="chkusb" value="301">
@@ -154,8 +154,8 @@
 					<option value="502">2x16GB G.SKILL Ripjaws V Series 32GB</option>
 				</select>
 				<br><br>
-				OS
-				<input type="radio" name="chkWindowsOS" value="600">
+				Windows OS
+				<input type="radio" name="chkWOS" value="600">
 				<br>
 				<p>
 				<input type="button" value="Checkout" name="butUpdate" onclick="updateOrderDetails()">
