@@ -28,7 +28,7 @@
 	<div class="panel">
 		<h2> Welcome to your Future.<br>Make your own Custom PC right here! </h2>
 		<h3>A few easy steps it's all it takes to make your own Custom PC.</h3>
-<button>NEW PC BUILD</button>
+<button>NEW BUILD</button>
 </div>
 
 <html>
@@ -69,10 +69,6 @@
 			totalTaxIncluded = parseFloat(CompItems[formElement.value]) * TAX;
 			total = total + parseFloat(CompItems[formElement.value]) + totalTaxIncluded;
 			orderDetails = orderDetails + "Hard Drive : $" + CompItems[formElement.value] + "\n";
-			formElement = document.form1.cboGraph[document.form1.cboGraph.selectedIndex];
-			totalTaxIncluded = parseFloat(CompItems[formElement.value]) * TAX;
-			total = total + parseFloat(CompItems[formElement.value]) + totalTaxIncluded;
-			orderDetails = orderDetails + "Graphics Card : $" + CompItems[formElement.value] + "\n";
 			formElement = document.form1.chkCDVDROM
 			if (formElement.checked == true) {
 				orderDetails = orderDetails + "CD/DVD-ROM : $" + CompItems[formElement.value] + "\n";
@@ -105,6 +101,10 @@
 			totalTaxIncluded = parseFloat(CompItems[formElement.value]) * TAX;
 			total = total + parseFloat(CompItems[formElement.value]) + totalTaxIncluded;
 			orderDetails = orderDetails + "RAM : $" + CompItems[formElement.value] + "\n";
+			formElement = document.form1.cboGraph[document.form1.cboGraph.selectedIndex];
+			totalTaxIncluded = parseFloat(CompItems[formElement.value]) * TAX;
+			total = total + parseFloat(CompItems[formElement.value]) + totalTaxIncluded;
+			orderDetails = orderDetails + "Graphics Card : $" + CompItems[formElement.value] + "\n";
 			formElement = document.form1.chkWOS
 			if (formElement.checked == true) {
 				orderDetails = orderDetails + "Windows OS : $" + CompItems[formElement.value] + "\n";
