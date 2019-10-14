@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<textbooks>
+	<textbook>
+		<title>D</title>
+		<authors>
+			<author>
+				<firstName>Eric</firstName>
+				<lastName>Redmod</lastName>
+			</author>
+			<author>
+				<firstName>Jim R.</firstName>
+				<lastName>Wilson</lastName>
+			</author>
+		</authors>
+		<publisher>
+			<name>Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement</name>
+		</publisher>
+		<Year-of-Publication>2012</Year-of-Publication>
+		<ISBN>1934356921</ISBN>
+		<book-specific-website>https://www.goodreads.com/book/show/13130963-seven-databases-in-seven-weeks</book-specific-website>
+		<edition>1</edition>
+		<cover-type>Paperback</cover-type>
+	</textbook>
+	<textbook>
+		<title>A Guide to SQL</title>
+		<authors>
+			<author>
+				<firstName>Philip J.</firstName>
+				<lastName>Pratt</lastName>
+			</author>
+		</authors>
+		<publisher>
+			<name>South-Western College Publishing </name>
+		</publisher>
+		<Year-of-Publication>2014</Year-of-Publication>
+		<ISBN>9781111527273</ISBN>
+		<book-specific-website>https://www.ebay.com/p/92325476</book-specific-website>
+		<edition>9</edition>
+		<cover-type>Paperback</cover-type>
+	</textbook>
+</textbooks>
